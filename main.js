@@ -28,19 +28,19 @@ $(document).ready(function () { //on DOM ready, bind clicks
     }); // closes mathIt
   });//closes document ready
 
-//function that adds, subtracts, multiplies and divides
+//function that adds and divides
 
 function runMath(num1, num2, num3, num4, nun5){
   var USmonthly = num1 + num2 + num3 + num4 + num5; //get monthly cost
-  var USdaily = USmonthly/30;
+  var USdaily = USmonthly/30; //get dailly cost
 
 	console.log("USmonthly", USmonthly);
 
 	$("#final-results").find("li").each(function(){
 		var country= $(this);
-		var dailycost = parseFloat(country.data("perdaycost"));
-    var ratio= USdaily/dailycost;
-		var dailyInt= Math.floor(ratio*30);
+		var dailycost= parseFloat(country.data("perdaycost"));
+    var ratio= USdaily/dailycost;//get ratio of daily US cost to days
+		var dailyInt= Math.floor(ratio*30); //rounds days
 		console.log("Country", country, "dc", dailycost, "ratio", ratio, "dailyInt", dailyInt);
 		country.find("span").text(dailyInt);
 	})
