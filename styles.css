@@ -66,7 +66,7 @@ html, body {
 }
 
 h1{
-  margin: 10px;
+  margin: 0 auto;
   padding: 10px;
   padding-bottom: 0px;
   font-size: 2em;
@@ -74,21 +74,20 @@ h1{
 }
 
 h2{
-  margin: 10px;
   margin-top: 2px;
   padding: 10px;
   padding-top: 0px;
   font-size: 1em;
-  line-height: 35px;
+  line-height: 20px;
 }
 
 h3{
-    margin: 10px;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
-    line-height: 20px;
+    line-height: 25px;
   }
+
 
 .main-text {
     margin: 10px;
@@ -115,6 +114,32 @@ h3{
   line-height: 20px;
 }
 
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+#square{
+   width: 100px;
+   height: 100px;
+   background: black;
+   position: relative;
+  float:left;
+  margin:20px;
+}
+
+.linker
+{
+  font-size : 20px;
+  font-color: white;
+}
 
 
 /* Tablet/Desktop overrides */

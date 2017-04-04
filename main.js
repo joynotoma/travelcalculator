@@ -44,21 +44,17 @@ function runMath(num1, num2, num3, num4, nun5){
 		console.log("Country", country, "dc", dailycost, "ratio", ratio, "dailyInt", dailyInt);
 		country.find("span").text(dailyInt);
 	})
+
+//animated ticker
+				$('.count').each(function () {
+				    $(this).prop('Counter',0).animate({
+				        Counter: $(this).text()
+				    }, {
+				        duration: 4000,
+				        easing: 'swing',
+				        step: function (now) {
+				            $(this).text(Math.ceil(now));
+				        }
+				    });
+				});
 }
-// the following are potential "days to" calendars. not sure if they work
-
-function addDays(date, days) {
-    var result = new Date(date);
-    result.setDate(result.getDate() + days);
-    return result;
-}
-
-function runMath(someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
-var someDate = new Date();
-var numberOfDaysToAdd = 6;
-
-var dd = someDate.getDate();
-var mm = someDate.getMonth() + 1;
-var y = someDate.getFullYear();
-
-var someFormattedDate = dd + '/'+ mm + '/'+ y;
