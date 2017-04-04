@@ -33,7 +33,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
     line-height: 2;
     font-family: 'Raleway', sans-serif;
-
 }
 
 ol, ul {
@@ -65,30 +64,30 @@ html, body {
     font-size: 16px;
 }
 
-h1{
-  margin: 10px;
-  padding: 10px;
-  padding-bottom: 0px;
-  font-size: 2em;
-  line-height: 35px;
+h1 {
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 2em;
+    line-height: 35px;
 }
 
-h2{
-  margin: 10px;
-  margin-top: 2px;
-  padding: 10px;
-  padding-top: 0px;
-  font-size: 1em;
-  line-height: 35px;
+h2 {
+    margin: 10px;
+    margin-top: 2px;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 1em;
+    line-height: 35px;
 }
 
-h3{
+h3 {
     margin: 10px;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
     line-height: 20px;
-  }
+}
 
 .main-text {
     margin: 10px;
@@ -98,23 +97,21 @@ h3{
     line-height: 20px;
 }
 
-.numbers{
+.numbers {
     margin: 10px;
     padding: 10px;
     padding-top: 0px;
     font-size: 1em;
     line-height: 20px;
-
 }
 
-.results{
-  margin: 10px;
-  padding: 10px;
-  padding-top: 0px;
-  font-size: 1em;
-  line-height: 20px;
+.results {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 1em;
+    line-height: 20px;
 }
-
 
 
 /* Tablet/Desktop overrides */
